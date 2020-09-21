@@ -9,13 +9,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
-    <!-- wow -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <link rel="stylesheet" href="css/animate.css">
-  <script type="text/javascript" src="js/wow.min.js"></script>
-  <script>
-      new WOW().init();
-  </script>
+
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -45,7 +42,7 @@
     <section id="section01">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12 text-center section01-text wow fadeInUp">
+                <div class="col-sm-12 text-center section01-text" data-aos="fade-up" data-aos-duration="3000">
                     <h1 class="white-text">Watch, The Galaxy Watch</h1>
                     <div class="border"></div>
                     <p class="white-text">스마트 워치의 다양한 기능과 손목 시계의 감성을 모두 담은 <br> 새로운 워치의 기준, 갤럭시 워치</p>
@@ -58,14 +55,14 @@
 
 
     <section id="section02">
-        <div class="section02-main-text text-center wow fadeInUp">
+        <div class="section02-main-text text-center" data-aos="fade-up" data-aos-duration="2000">
             <p>새로운 스마트 헬스케어 워치</p>
             <h1>Galaxy Watch3</h1>
         </div>
         <div class="container-fluid section02-text">
             <div class="row">
                 <div class="col-sm-4 section02-img">
-                    <div class="sample-img wow fadeInLeft">
+                    <div class="sample-img" data-aos="fade-right"data-aos-duration="2000">
                         <img src="images/watch-intro01.webp" alt="" class="img-responsive">
                         <div class="section02-black text-center">
                             <h1 class="white-text">다양한 운동 트래킹</h1>
@@ -79,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 section02-img wow fadeInRight">
+                <div class="col-sm-4 section02-img" data-aos="fade-up"data-aos-duration="2000">
                     <div class="sample-img">
                         <img src="images/watch-intro02.webp" alt="" class="img-responsive">
                         <div class="section02-black text-center">
@@ -92,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 section02-img wow fadeInRight">
+                <div class="col-sm-4 section02-img" data-aos="fade-left"data-aos-duration="2000">
                     <div class="sample-img">
                         <img src="images/watch-intro03.webp" alt="" class="img-responsive">
                         <div class="section02-black text-center">
@@ -130,4 +127,10 @@
         <!-- section05 -->
         
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</body>
 </html>
