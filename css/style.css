@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+@font-face { font-family: 'IBMPlexSansKR-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.navbar{
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-weight: bold;
+}
+.menu>ul>li>a{
+    font-size: 16px;
+}
+
+#section01{
+    background: url(../images/img_kv_pc.webp);
+    width: 100%;
+    height:90vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+.white-text{
+    color: #fff;
+}
+.section01-text{
+    padding-top: 2%;
+    font-family: 'IBMPlexSansKR-Regular';
+}
+.section01-text h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0.5%;
+}
+.section01-text p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 0.5%;
+}
+.border{
+    width: 0.01%;
+    height: 30px;
+    border-right: 2px solid #FFF;
+    margin: 0 auto;
+}
+.section01-btn{
+    background: #0074c2;
+    color: #fff;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 16px;
+    border: none;
+    width: 5%;
+    border-radius:15px;
+    outline: none;
+}
+
+/* section02 */
+.section02-main-text p{
+    font-size: 22px;
+    font-family: 'IBMPlexSansKR-Regular';
+    letter-spacing:1px;
+    font-weight: bold;
+}
+.section02-main-text h1{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'IBMPlexSansKR-Regular';
+    letter-spacing:2px;
+}
+.section02-text{
+    margin-top: 3%;
+}
+.section02-img img{
+    width: 100%;
+}
+.section02-black{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: #000;
+    overflow: hidden;
+    opacity: 0;
+    border-radius: 15px;
+}
+.section02-img:hover .section02-black{
+    opacity: 0.8;
+}
+.section02-black h1{
+    margin-top: 30%;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing:3px;
+}
+.section02-black p{
+    margin-top: 3%;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 17px;
+    letter-spacing:2px;
+}
+.section02-img:hover .img-responsive{
+    transform: scale(1.2);
+}
+.sample-img{
+    overflow: hidden;
+}
+.img-responsive{
+    transition: all 1s;
+}
