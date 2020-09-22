@@ -9,6 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
 
   <!-- aos -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -46,7 +47,7 @@
                     <h1 class="white-text">Watch, The Galaxy Watch</h1>
                     <div class="border"></div>
                     <p class="white-text">스마트 워치의 다양한 기능과 손목 시계의 감성을 모두 담은 <br> 새로운 워치의 기준, 갤럭시 워치</p>
-                    <a href="#section02" class="section01-btn">더 알아보기</a>
+                    <button type="button" class="section01-btn">더 알아보기</button>
                 </div>
             </div>
         </div>
@@ -110,13 +111,37 @@
 
 
     <section id="section03">
-
+        <div class="section03-main-text text-center" data-aos="fade-down" data-aos-duration="2000">
+            <h2>방수와 충격에 강한 내구성</h2>
+            <p>비가 와도, 충격을 받아도 걱정할 필요 없습니다.
+                갤럭시 워치는 5 ATM* 방수 성능과 Military 표준* 내구성을 갖춰 극한 상황에서도 문제없습니다.</p>
+        </div>
+        <div class="container section03-img">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="images/water.webp" alt="" width="100%">
+                </div>
+            </div>
+        </div>
     </section>
         <!-- section03 -->
 
 
     <section id="section04">
-
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="img-comp-container">
+                        <div class="img-comp-img">
+                          <img src="images/day.jpg" width="1200" height="800">
+                        </div>
+                        <div class="img-comp-img img-comp-overlay">
+                          <img src="images/night.jpg" width="1200" height="800">
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
     </section>
         <!-- section04 -->
 
@@ -131,6 +156,9 @@
 <script>
     AOS.init();
   </script>
+  <script>
+    initComparisons();
+    </script>
 
 </body>
 </html>
