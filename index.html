@@ -14,6 +14,10 @@
   <!-- aos -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -111,15 +115,19 @@
 
 
     <section id="section03">
-        <div class="section03-main-text text-center" data-aos="fade-down" data-aos-duration="2000">
+        <div class="section03-main-text text-center" data-aos="fade-up" data-aos-duration="2000">
             <h2>방수와 충격에 강한 내구성</h2>
-            <p>비가 와도, 충격을 받아도 걱정할 필요 없습니다.
-                갤럭시 워치는 5 ATM* 방수 성능과 Military 표준* 내구성을 갖춰 극한 상황에서도 문제없습니다.</p>
+            <p>비가 와도, 충격을 받아도 걱정할 필요 없습니다. <br>
+                갤럭시 워치는 5 ATM* 방수 성능과 Military 표준* 내구성을 갖춰 <br>
+                극한 상황에서도 문제없습니다.</p>
         </div>
         <div class="container section03-img">
             <div class="row">
                 <div class="col-sm-12">
                     <img src="images/water.webp" alt="" width="100%">
+                    <div class="section03-img-main" data-aos="fade-down" data-aos-duration="2000">
+                        <img src="images/water-watch.png" alt="" width="100%">
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,18 +135,26 @@
         <!-- section03 -->
 
 
-    <section id="section04">
+    <section id="section04" class="section04">
+        <div class="section04-txt">
+            <h1>데일리 브리핑</h1>
+            <p>하루의 시작과 끝을 함께합니다. <br>
+                매일 아침 날씨, 스케쥴, 리마인더 등 필요한 정보를 알려주며, <br>
+                자기 전에는 완료되지 못한 리마인더와 그 날의 활동량을 알려줍니다.</p>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="img-comp-container">
-                        <div class="img-comp-img">
-                          <img src="images/day.jpg" width="1200" height="800">
+                    <div class="ba-slider">
+                        <img src="images/day.jpg" alt="" height="700">       
+                        <div class="resize">
+                          <img src="images/night.jpg" alt="" height="700">
                         </div>
-                        <div class="img-comp-img img-comp-overlay">
-                          <img src="images/night.jpg" width="1200" height="800">
-                        </div>
+                        <span class="handle"></span>
                       </div>
+                </div>
+                <div class="col-sm-4">
+                    
                 </div>
             </div>
         </div>
@@ -147,9 +163,46 @@
 
 
     <section id="section05">
+        <div class="section05-txt text-center">
+            <h1>Galaxy Watch3 <br>
+                지금 바로 구매하기</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/img_pd_bronz_slide01_pc.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/img_pd_bronz_slide02_pc.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/img_pd_bronz_slide03_pc.webp" alt="">
+                        </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
 
+                </div>
+            </div>
+        </div>
     </section>
         <!-- section05 -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
         
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
