@@ -77,4 +77,17 @@ function drags(dragElement, resizeElement, container) {
   });
 }
 
-function
+
+  $(function(){
+    $('.button-bronze').click(function(){
+      $('.bronze').css("display","block");
+      $('.sliver').css("display","none");
+    });
+  });
+  $(function(){
+    $('.button-sliver').click(function(){
+      $('.bronze').css("display","none");
+      $('.sliver').css("display","block");
+    });
+  });
+

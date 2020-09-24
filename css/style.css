@@ -184,12 +184,18 @@
     font-weight: bold;
     font-size: 50px;
     letter-spacing: 3px;
+    padding-bottom: 2%;
 }
-.section04-txt p{
-    font-size: 16px;
+.sec04-text{
+    font-size: 20px;
     letter-spacing: 1px;
-    line-height: 22px;
-    margin: 1% 0 2%;
+    line-height: 30px;
+    font-family: 'IBMPlexSansKR-Regular';
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
 }
 @import "lesshat";
 
@@ -325,3 +331,36 @@
     font-weight: bold;
     border-radius: 15px;
 }
+.prise{
+    padding-top: 5%;
+    width: 100%;
+}
+.won{
+    display: flex;
+    color: #999;
+    font-weight: bold;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 16px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #ccc;
+}
+.sale{
+    display: flex;
+    color: #999;
+    font-weight: bold;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 16px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #ccc;
+}
+.won p:last-child{
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+.sale p:last-child{
+    position: absolute;
+    right: 0;
+}
+
+
