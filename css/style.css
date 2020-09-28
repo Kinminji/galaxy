@@ -270,6 +270,7 @@ a{
     font-size:30px;
 }
 
+/* section06 */
 #section06{
     width: 100%;
     padding-top: 10%;
@@ -303,6 +304,35 @@ a{
     margin: 0 auto;
 }
 
+/* section07 */
+#section07{
+    width: 100%;
+    padding-bottom: 5%;
+}
+.section07-bg{
+    background: url("../images/watch-bg.png");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section07-txt{
+    font-family: 'IBMPlexSansKR-Regular';
+    margin-top: 5%;
+}
+.section07-txt h1{
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 1%;
+}
+.section07-txt p{
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
 
 /* section05 */
 #section05{
