@@ -333,6 +333,13 @@ a{
     letter-spacing: 1px;
     font-weight: bold;
 }
+.sec07-txt{
+    display: flex;
+}
+.sec07-img img{
+    padding-top: 30%;
+    padding-left: 30%;
+}
 
 /* section05 */
 #section05{
