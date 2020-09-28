@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
 @font-face { font-family: 'IBMPlexSansKR-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'GyeonggiBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 a{
     text-decoration: none;
@@ -163,7 +164,7 @@ a{
     letter-spacing: 2px;
 }
 .section03-main-text p{
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'IBMPlexSansKR-Regular';
     letter-spacing: 1px;
     line-height: 22px;
@@ -188,12 +189,12 @@ a{
 }
 .section04-txt h1{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 3px;
     padding-bottom: 2%;
 }
 .sec04-text{
-    font-size: 20px;
+    font-size: 17px;
     letter-spacing: 1px;
     line-height: 30px;
     font-family: 'IBMPlexSansKR-Regular';
@@ -268,6 +269,40 @@ a{
     line-height:48px;
     font-size:30px;
 }
+
+#section06{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.section06-txt{
+    /* font-size: 100px; */
+    font-family: 'IBMPlexSansKR-Regular';
+    margin-bottom: 3%;
+}
+.section06-txt h1{
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: bold;
+    margin-bottom: 1%;
+    letter-spacing: 2px;
+}
+.section06-txt p{
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.section06-bg{
+    background: url("../images/app-watch.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section06-bg img{
+    margin: 0 auto;
+}
+
 
 /* section05 */
 #section05{
