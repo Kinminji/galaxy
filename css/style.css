@@ -176,100 +176,6 @@ a{
     left: 0;
 }
 
-/* section04 */
-#section04{
-    /* background: #000; */
-    width: 100%;
-    /* height: 100vh; */
-}
-.section04-txt{
-    text-align: center;
-    font-family: 'IBMPlexSansKR-Regular';
-    padding-top: 2%;
-}
-.section04-txt h1{
-    font-weight: bold;
-    font-size: 40px;
-    letter-spacing: 3px;
-    padding-bottom: 2%;
-}
-.sec04-text{
-    font-size: 17px;
-    letter-spacing: 1px;
-    line-height: 30px;
-    font-family: 'IBMPlexSansKR-Regular';
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 600px;
-}
-@import "lesshat";
-
-.ba-slider {
-    position: relative;
-    overflow: hidden;
-}
- 
-.ba-slider img {
-    width: 100%;
-    display:block;
-}
- 
-.resize {
-    position: absolute;
-    top:0;
-    left: 0;
-    height: 100%;
-    width: 50%;
-    overflow: hidden;
-}
-
-
-.handle { /* Thin line seperator */
-  position:absolute; 
-  left:50%;
-  top:0;
-  bottom:0;
-  width:4px;
-  margin-left:-2px;
- 
-  background: rgba(0,0,0,.5);
-  cursor: ew-resize;
-}
- 
-.handle:after {  /* Big orange knob  */
-    position: absolute;
-    top: 50%;
-    width: 64px;
-    height: 64px;
-    margin: -32px 0 0 -32px;
- 
-    content:'\21d4';
-    color:white;
-    font-weight:bold;
-    font-size:36px;
-    text-align:center;
-    line-height:64px;
- 
-    background: #ffb800; /* @orange */
-    border:1px solid #e6a600; /* darken(@orange, 5%) */
-    border-radius: 50%;
-    transition:all 0.3s ease;
-    box-shadow:
-      0 2px 6px rgba(0,0,0,.3), 
-      inset 0 2px 0 rgba(255,255,255,.5),
-      inset 0 60px 50px -30px #ffd466; /* lighten(@orange, 20%)*/ 
-}
-
-.draggable:after {
-    width: 48px;
-    height: 48px;
-    margin: -24px 0 0 -24px;
-    line-height:48px;
-    font-size:30px;
-}
-
 /* section06 */
 #section06{
     width: 100%;
@@ -344,7 +250,7 @@ a{
 /* section05 */
 #section05{
     width: 100%;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 .section05-txt{
@@ -353,7 +259,7 @@ a{
     margin-bottom: 3%;
 }
 .section05-txt h1{
-    font-size: 80px;
+    font-size: 60px;
     line-height: 80px;
     font-weight: bold;
 }
@@ -477,7 +383,7 @@ a{
   /* Style the tab content */
   .tabcontent {
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
   }
   .silver{
       display: none;
@@ -521,6 +427,64 @@ a{
       text-decoration: none;
       color: inherit;
   }
-  
+  .carousel-control.left {
+     background-image:none;
+  }
+  .carousel-control.right {
+    background-image:none;
+ }
+
+  /* section08 */
+
+  #section08{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.section08-txt{
+    /* font-size: 100px; */
+    font-family: 'IBMPlexSansKR-Regular';
+    margin-bottom: 3%;
+}
+.section08-txt h1{
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: bold;
+}
+.intro-button{
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50px;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBMPlexSansKR-Regular';
+    border: 2px solid #000;
+    margin-top: 9.5%;
+}
+.first-child{
+    margin-top:5%;
+}
+.intro-button a{
+    text-decoration: none;
+    color: inherit;
+}
+.intro-button:hover{
+    color: #fff;
+    background: #000;
+    transition: 0.5s;
+}
+.sec08-banner h3{
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 8%;
+}
 
 
