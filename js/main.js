@@ -90,3 +90,21 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+$(function() {
+  $(".button01").click(function() {
+      $(".img01").css('display','block');
+      $(".img02").css('display','none');
+      $(".img03").css('display','none');
+  });
+  $(".button02").click(function() {
+    $(".img02").css('display','block');
+    $(".img01").css('display','none');
+    $(".img03").css('display','none');
+});
+  $(".button03").click(function() {
+    $(".img03").css('display','block');
+    $(".img02").css('display','none');
+    $(".img01").css('display','none');
+  });
+});
