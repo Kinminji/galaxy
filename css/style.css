@@ -336,6 +336,7 @@ a{
         margin-top: 5%;
     }
 }
+/* section10 */
 
 #section10{
     width: 100%;
@@ -354,6 +355,15 @@ a{
 .cover-in-cover{
     position: absolute;
     top: 0;
+}
+
+@media(max-width:767px){
+    .cover-in{ 
+
+    }
+    .cover-in-cover{
+
+    }
 }
 
 /* section05 */
