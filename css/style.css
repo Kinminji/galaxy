@@ -266,6 +266,14 @@ a{
 /* .sec07-bg{
     background: #f1f1f1;
 } */
+.sec07-main{
+    margin-bottom: 7%;
+}
+.sec07-main h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'IBMPlexSansKR-Regular';
+}
 .section07-img{
     overflow: hidden;
     display: flex;
@@ -323,15 +331,36 @@ a{
     .sec07-txt>div{
         margin: 0 auto;
         text-align: center;
-
     }
+    .sec07-button-row{
+        margin-top: 5%;
+    }
+}
+
+#section10{
+    width: 100%;
+}
+.sec10-bg{
+    background: url('../images/watch-single.png');
+    background-repeat: no-repeat;
+}
+.cover{
+    position: relative;
+}
+.cover-in{
+    position: absolute;
+    top: 0;
+}
+.cover-in-cover{
+    position: absolute;
+    top: 0;
 }
 
 /* section05 */
 #section05{
     width: 100%;
     padding-top: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 .section05-txt{
     /* font-size: 100px; */
