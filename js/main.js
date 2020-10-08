@@ -91,6 +91,7 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
+
 $(function() {
   $(".button01").click(function() {
       $(".img01").css('display','block');

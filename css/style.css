@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
 @font-face { font-family: 'IBMPlexSansKR-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'GyeonggiBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'IBMPlexSansKR-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'IBMPlexSansKR-SemiBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-SemiBold.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 a{
     text-decoration: none;
@@ -21,34 +23,36 @@ a{
 }
 
 #section01{
-    background: url(../images/img_kv_pc.webp);
+    background: url(../images/img_kv_pc.jpg);
     width: 100%;
     height:90vh;
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 5%;
 }
 .white-text{
     color: #fff;
 }
 .section01-text{
-    padding-top: 2%;
-    font-family: 'IBMPlexSansKR-Regular';
+    padding-top: 4%;
+
 }
 .section01-text h1{
     font-size: 60px;
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 0.5%;
+    font-family: 'IBMPlexSansKR-SemiBold';
 }
 .section01-text p{
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 28px;
     margin-top: 0.5%;
+    letter-spacing: 1px;
+    font-family: 'IBMPlexSansKR-Regular';
 }
 .border{
     width: 0.01%;
-    height: 30px;
+    height: 45px;
     border-right: 2px solid #FFF;
     margin: 0 auto;
 }
@@ -74,21 +78,23 @@ a{
         font-size: 45px;
     }
     .section01-text p{
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
 /* section02 */
+#section02{
+    margin-top: 5%;
+}
 .section02-main-text p{
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'IBMPlexSansKR-Regular';
     letter-spacing:1px;
     font-weight: bold;
 }
 .section02-main-text h1{
     font-size: 60px;
-    font-weight: bolder;
-    font-family: 'IBMPlexSansKR-Regular';
+    font-family: 'IBMPlexSansKR-SemiBold';
     letter-spacing:2px;
 }
 .section02-text{
@@ -136,11 +142,6 @@ a{
 .img-responsive{
     transition: all 1s;
 }
-#section03{
-    width: 100%;
-    padding: 5%;
-}
-
 @media(max-width:767px){
     .section02-main-text h1{
         font-size: 50px;
@@ -156,9 +157,16 @@ a{
         font-size: 16px;
     }
 }
-/* section03 */
-* {box-sizing: border-box;}
 
+/* section03 */
+#section03{
+    width: 100%;
+    margin-top: 5%;
+}
+* {box-sizing: border-box;}
+.section03-img{
+    margin-top: 3%;
+}
 .img-comp-container {
   position: relative;
   height: 200px; /*should be the same height as the images*/
@@ -218,8 +226,7 @@ a{
 /* section06 */
 #section06{
     width: 100%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    margin-top: 5%;
 }
 .section06-txt{
     /* font-size: 100px; */
@@ -261,13 +268,13 @@ a{
 /* section07 */
 #section07{
     width: 100%;
-    padding-bottom: 5%
+    margin-top: 5%;
 }
 /* .sec07-bg{
     background: #f1f1f1;
 } */
 .sec07-main{
-    margin-bottom: 7%;
+    margin-bottom: 3%;
 }
 .sec07-main h1{
     font-size: 40px;
@@ -300,7 +307,7 @@ a{
     margin-bottom: 1%;
 }
 .section07-txt p{
-    font-size: 22px;
+    font-size: 20px;
     line-height: 25px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -308,24 +315,22 @@ a{
 .sec07-txt{
     /* display: flex; */
     cursor: pointer;
-    padding-bottom: 5%;
+    margin: 3% 0 3%;
     background: #f1f1f1;
     border-radius: 50px;
-    margin: 3% 0 0;
+    box-sizing: border-box;
 }
-.sec07-txt:hover{
-    box-shadow: 0px 5px 5px 5px #ccc;
-    margin-top: -2%;
-    transition: 1s;
+.sec07-txt:hover{   
+    border: 2px solid #333;
 }
+
 .sec07-txt button{
     border: none;
     background: none;
     outline: none;
 }
-.sec07-img img{
-    /* margin-top: 40%; */
-    /* padding-left: 30%; */
+.sec07-img{
+    margin-bottom: 5%;
 }
 @media(max-width:767px){
     .sec07-txt>div{
@@ -340,6 +345,7 @@ a{
 
 #section10{
     width: 100%;
+    margin-top: 5%;
 }
 .sec10-bg{
     background: url('../images/watch-single.png');
@@ -369,21 +375,20 @@ a{
 /* section05 */
 #section05{
     width: 100%;
-    padding-top: 2%;
-    padding-bottom: 3%;
+    margin-top: 5%;
 }
-.section05-txt{
+.sec05-contianer{
     /* font-size: 100px; */
-    font-family: 'IBMPlexSansKR-Regular';
-    margin-bottom: 3%;
+    margin-top: 3%;
 }
 .section05-txt h1{
     font-size: 60px;
-    line-height: 80px;
-    font-weight: bold;
+    font-family: 'IBMPlexSansKR-SemiBold';
 }
 .section05-txt p{
-    font-size: 45px;
+    font-size: 20px;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-weight: bold;
 }
 .sliver{
     display: none;
@@ -399,7 +404,7 @@ a{
     letter-spacing: 2px;
 }
 .but-txt p{
-    font-size: 16px;
+    font-size: 17px;
     color: #999;
     font-family: 'IBMPlexSansKR-Regular';
     letter-spacing: 1px;
@@ -571,19 +576,16 @@ a{
 
   #section08{
     width: 100%;
-    padding-top: 5%;
-    padding-bottom: 3%;
+    margin-top: 5%;
 }
-.section08-txt{
+.sec08-contianer{
     /* font-size: 100px; */
-    font-family: 'IBMPlexSansKR-Regular';
-    margin-bottom: 3%;
     margin-top: 3%;
 }
 .section08-txt h1{
     font-size: 60px;
     line-height: 80px;
-    font-weight: bold;
+    font-family: 'IBMPlexSansKR-SemiBold';
 }
 .intro-button{
     margin: 0 auto;
@@ -640,6 +642,7 @@ a{
 footer{
     width: 100%;
     background-color: #222;
+    margin-top: 5%;
 }
 .footer-left{
     color: #999;
